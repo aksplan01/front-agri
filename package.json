@@ -2,15 +2,22 @@
   "name": "front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://aksplan01.github.io/front-agri",
+  "homepage": "http://sathishkumar098.github.io/react-js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^4.6.0",
+    "firebase": "^8.4.2",
     "github": "^14.0.0",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
+    "react-phone-input-2": "^2.14.0",
+    "react-phone-number-input": "^3.1.19",
     "react-scripts": "4.0.3",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
@@ -18,8 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
